@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+email-finder-website
+pandas
