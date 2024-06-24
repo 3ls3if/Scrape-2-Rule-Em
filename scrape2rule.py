@@ -96,7 +96,7 @@ def extract_html_forms(soup):
 
 
 def extract_sensitive_contents(soup):
-    sensitive_keywords = ['password', 'secret', 'token', 'aws_access_key_id', 'aws_secret_access_key', 's3:', 'google_api_key']
+    sensitive_keywords = ['password', 'secret', 'token', 'aws_access_key_id', 'aws_secret_access_key', 's3:', 'google_api_key', 'apiKey']
     sensitive_contents = []
     for text in soup.stripped_strings:
         for keyword in sensitive_keywords:
